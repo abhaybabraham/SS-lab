@@ -1,0 +1,5 @@
+LDA 04
+STA 50
+LDCH 12
+STCH 66
+eof
