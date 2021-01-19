@@ -1,0 +1,9 @@
+READ MACRO &A,&B
+- LDA &A
+- STA &B
+- MEND -
+COPY START 1000
+- READ a,b
+a RESW 1
+b RESW 1
+- END -

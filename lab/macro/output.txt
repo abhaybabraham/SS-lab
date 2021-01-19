@@ -1,0 +1,7 @@
+COPY	START	1000
+.	READ	a,b
+-	LDA	a
+-	STA	b
+a	RESW	1
+b	RESW	1
+-	END	-
